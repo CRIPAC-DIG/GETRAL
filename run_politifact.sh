@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=1 python MasterFC/master_mac.py --dataset="PolitiFact" \
+python MasterFC/master_getral.py --dataset="PolitiFact" \
                              --cuda=1 \
                              --fixed_length_left=30 \
                              --fixed_length_right=100 \

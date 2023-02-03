@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=6 python MasterFC/master_mac.py --dataset="Snopes" \
+python MasterFC/master_getral.py --dataset="Snopes" \
                              --cuda=1 \
                              --fixed_length_left=30 \
                              --fixed_length_right=100 \
